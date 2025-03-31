@@ -85,7 +85,7 @@ document.addEventListener('DOMContentLoaded', function() {
     }
 
     function fetchAndDisplayIncidents() {
-        fetch('https://sme-panic-button.adminml.com/get_incident')
+        fetch('URL_DE_TICKETERA')
             .then(response => response.json())
             .then(data => {
                 if (!data || !Array.isArray(data) || data.length === 0) {
