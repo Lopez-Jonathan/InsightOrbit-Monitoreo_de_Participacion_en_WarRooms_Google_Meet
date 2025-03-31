@@ -132,7 +132,7 @@ document.addEventListener('DOMContentLoaded', function() {
     // Función para obtener e mostrar incidentes desde una API
     function fetchAndDisplayIncidents() {
         // Realiza una solicitud GET a la primera API de incidentes
-        fetch('https://sme-panic-button.adminml.com/get_incident')
+        fetch('URL_TICKETERA1')
             .then(response => response.json())  // Convierte la respuesta a formato JSON
             .then(data => {
                 // Verifica si los datos obtenidos son válidos (una lista no vacía)
@@ -186,7 +186,7 @@ document.addEventListener('DOMContentLoaded', function() {
             })
             /*.finally(() => {
                 // Realiza la solicitud GET a la segunda API con autenticación (cookies de sesión)
-                fetch('https://moody.adminml.com/incidents', {
+                fetch('URL_TICKETERA2', {
                     method: 'GET',  // Método GET
                     credentials: 'same-origin',  // Enviar cookies de sesión con la solicitud
                     headers: {
