@@ -85,9 +85,9 @@
 #     file_path = os.path.join(desktop_path, 'integrantes_reunion.txt')
 
 #     # Declaramos variables
-#     email = "totitolopjona@gmail.com"
-#     password = "Cabezon123"
-#     meeting_url = "https://meet.google.com/wrw-avxj-qst?authuser=0"
+#     email = "EMAIL_GMAIL"
+#     password = "PASSWORD"
+#     meeting_url = "URL_GOOGLE_MEET"
 
 
 # # Modulos de terceros
