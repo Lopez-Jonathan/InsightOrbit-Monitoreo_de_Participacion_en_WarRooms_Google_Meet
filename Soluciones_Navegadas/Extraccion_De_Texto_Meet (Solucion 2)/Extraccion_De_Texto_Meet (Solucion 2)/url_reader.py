@@ -5,7 +5,7 @@ import time
 from Optimized_2_Log_me_UC import main as run_main
 
 def check_event():
-    url = "https://sme-panic-button.adminml.com/get_incident"
+    url = "URL_TICKETERA"
     response = requests.get(url)
     if response.status_code == 200:
         data = response.json()
