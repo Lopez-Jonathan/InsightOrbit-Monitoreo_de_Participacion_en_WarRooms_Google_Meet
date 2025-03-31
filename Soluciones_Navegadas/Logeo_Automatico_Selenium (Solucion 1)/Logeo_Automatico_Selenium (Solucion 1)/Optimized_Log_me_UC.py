@@ -15,9 +15,9 @@ def main():
     file_path = os.path.join(desktop_path, 'integrantes_reunion.txt')
 
     # Declaramos variables
-    email = "totitolopjona@gmail.com"
-    password = "Cabezon123"
-    meeting_url = "https://meet.google.com/wrw-avxj-qst?authuser=0"
+    email = "MAIL_GMAIL"
+    password = "PASSWORD"
+    meeting_url = "URL_GOOGLE_MEET"
 
     # Iniciamos webdriver
     driver = start_webdriver(headless=False, pos="maximizada")
