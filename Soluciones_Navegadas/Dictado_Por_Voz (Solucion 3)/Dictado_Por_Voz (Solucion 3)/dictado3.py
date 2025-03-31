@@ -104,7 +104,7 @@ def extract_data_from_request(data):
 
 def main(data):
     microphone_index = 1
-    webhook_url = 'https://hooks.slack.com/services/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'
+    webhook_url = 'SLACK_WEBHOOK'
 
     speak("Presionar ESCAPE para iniciar escucha o Ctrl + C para finalizar el programa")
     try:
