@@ -62,7 +62,7 @@ def main():
     microphone_index = 1  # Índice del micrófono del auricular
     listening = 0
     audio=0
-    url= 'https://hooks.slack.com/services/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'
+    url= 'SLACK_WEBHOOK'
     # Esperar hasta que se presione Ctrl + C para salir
     speak("Presionar ESCAPE para iniciar escucha o Ctrl + C para finalizar el programa")
     try:
