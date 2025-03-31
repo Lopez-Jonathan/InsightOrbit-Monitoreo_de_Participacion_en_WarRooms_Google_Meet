@@ -7,7 +7,7 @@
 # file_path = os.path.join(desktop_path, 'integrantes_reunion.txt')
 
 # # URL de la reunión de Google Meet
-# meeting_url = "https://meet.google.com/wyj-ifdf-cfd?authuser=1&pli=1"
+# meeting_url = "URL_GOOGLE_MEET"
 
 # # Función para obtener los nombres de los participantes
 # def obtener_participantes(driver):
@@ -60,7 +60,7 @@
 # file_path = os.path.join(desktop_path, 'integrantes_reunion.txt')
 
 # # URL de la reunión de Google Meet
-# meeting_url = "https://meet.google.com/ktf-qxpm-muj?authuser=1"
+# meeting_url = "URL_GOOGLE_MEET"
 
 # # Configuración del navegador Chrome
 # chrome_options = webdriver.ChromeOptions()
@@ -113,7 +113,7 @@
 # file_path = os.path.join(desktop_path, 'integrantes_reunion.txt')
 
 # # URL de la reunión de Google Meet
-# meeting_url = "https://meet.google.com/oki-bkkv-jgb?authuser=1"
+# meeting_url = "URL_GOOGLE_MEET"
 
 # # Configuración del navegador Chrome
 # chrome_options = webdriver.ChromeOptions()
@@ -163,15 +163,15 @@
 # import os
 
 # # Credenciales de la cuenta de Google
-# email = "totitolopjona@gmail.com"  # Reemplaza con tu dirección de correo electrónico
-# password = "Cabezon123"     # Reemplaza con tu contraseña
+# email = "GMAIL"  # Reemplaza con tu dirección de correo electrónico
+# password = "PASSWORD"     # Reemplaza con tu contraseña
 
 # # Ruta del archivo en el escritorio
 # desktop_path = os.path.join(os.path.join(os.environ['USERPROFILE']), 'Desktop')
 # file_path = os.path.join(desktop_path, 'integrantes_reunion.txt')
 
 # # URL de la reunión de Google Meet
-# meeting_url = "https://meet.google.com/oki-bkkv-jgb?authuser=1"
+# meeting_url = "URL_GOOGLE_MEET"
 
 # # Configuración del navegador Chrome
 # chrome_options = webdriver.ChromeOptions()
@@ -311,15 +311,15 @@
 # import os
 
 # # Credenciales de la cuenta de Google
-# email = "totitolopjona@gmail.com"  # Reemplaza con tu dirección de correo electrónico
-# password = "Cabezon123"     # Reemplaza con tu contraseña
+# email = "GMAIL"  # Reemplaza con tu dirección de correo electrónico
+# password = "PASSWORD"     # Reemplaza con tu contraseña
 
 # # Ruta del archivo en el escritorio
 # desktop_path = os.path.join(os.path.join(os.environ['USERPROFILE']), 'Desktop')
 # file_path = os.path.join(desktop_path, 'integrantes_reunion.txt')
 
 # # URL de la reunión de Google Meet
-# meeting_url = "https://meet.google.com/oki-bkkv-jgb?authuser=1"
+# meeting_url = "URL_GOOGLE_MEET"
 
 # # Configuración del navegador Chrome
 # chrome_options = webdriver.ChromeOptions()
@@ -388,15 +388,15 @@ import os
 
 
 # Credenciales de la cuenta de Google
-email = "totitolopjona@gmail.com"  # Reemplaza con tu dirección de correo electrónico
-password = "Cabezon123"     # Reemplaza con tu contraseña
+email = "GMAIL"  # Reemplaza con tu dirección de correo electrónico
+password = "PASSWORD"     # Reemplaza con tu contraseña
 
 # Ruta del archivo en el escritorio
 desktop_path = os.path.join(os.path.join(os.environ['USERPROFILE']), 'Desktop')
 file_path = os.path.join(desktop_path, 'integrantes_reunion.txt')
 
 # URL de la reunión de Google Meet
-meeting_url = "https://meet.google.com/ghf-wsyw-wkr?authuser=1"
+meeting_url = "URL_GOOGLE_MEET"
 
 # Configuración del navegador Chrome
 chrome_options = webdriver.ChromeOptions()
