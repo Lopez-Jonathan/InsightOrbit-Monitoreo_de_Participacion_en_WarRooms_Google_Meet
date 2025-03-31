@@ -7,15 +7,15 @@ import time
 import os
 
 # Credenciales de la cuenta de Google
-email = "totitolopjona@gmail.com"
-password = "Cabezon123"
+email = "GMAIL"
+password = "PASSWORD"
 
 # Ruta del archivo en el escritorio
 desktop_path = os.path.join(os.path.join(os.environ['USERPROFILE']), 'Desktop')
 file_path = os.path.join(desktop_path, 'integrantes_reunion.txt')
 
 # URL de la reunión de Google Meet
-meeting_url = "https://meet.google.com/oij-ycws-seo?authuser=1"
+meeting_url = "URL_GOOGLE_MEET"
 
 # Configuración del navegador Microsoft Edge
 edge_options = webdriver.EdgeOptions()
