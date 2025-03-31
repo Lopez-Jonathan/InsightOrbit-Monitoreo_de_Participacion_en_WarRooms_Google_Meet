@@ -1,0 +1,75 @@
+{
+  "manifest_version": 3,
+  "name": "InsightOrbit",
+  "version": "1.0",
+  "description": "Recopila nombres y tiempo de habla de participantes de Google Meet; compila incidentes y garantiza el envio mediante Slack y archivo .txt",
+  "permissions": [
+    "activeTab",
+    "storage",
+    "scripting",
+    "alarms",
+    "tabs",
+    "background",
+    "cookies",
+    "webNavigation",
+    "downloads"
+  ],
+  "background": {
+    "service_worker": "background.js"
+  },
+  "action": {
+    "default_popup": "popup.html"
+  },
+  "host_permissions": [
+    "https://sme-panic-button.adminml.com/*",
+    "https://meet.google.com/*",
+    "https://moody.adminml.com/*"
+  ],
+  "content_scripts": [
+    {
+      "matches": ["https://meet.google.com/*"], 
+      "js": ["scripts/content.js"],
+      "run_at": "document_end"
+    }
+  ],
+  "web_accessible_resources": [
+    {
+      "resources": ["popup.css"],
+      "matches": ["https://meet.google.com/*"]
+    }
+  ]
+}
+
+
+  
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+  

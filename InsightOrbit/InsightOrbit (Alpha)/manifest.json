@@ -1,0 +1,73 @@
+{
+  "manifest_version": 3,
+  "name": "Google Meet Participant Extractor & Incident Handler",
+  "version": "1.0",
+  "description": "Extrae nombres de participantes de Google Meet y maneja incidentes.",
+  "permissions": [
+    "activeTab",
+    "storage",
+    "scripting",
+    "alarms",
+    "tabs",
+    "background",
+    "cookies",
+    "webNavigation"
+  ],
+  "background": {
+    "service_worker": "background.js"
+  },
+  "action": {
+    "default_popup": "popup.html"
+  },
+  "host_permissions": [
+    "https://sme-panic-button.adminml.com/*",
+    "https://meet.google.com/*"
+  ],
+  "content_scripts": [
+    {
+      "matches": ["https://meet.google.com/*"], 
+      "js": ["scripts/content.js"],
+      "run_at": "document_end"
+    }
+  ],
+  "web_accessible_resources": [
+    {
+      "resources": ["popup.css"],
+      "matches": ["https://meet.google.com/*"]
+    }
+  ]
+}
+
+
+  
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+  

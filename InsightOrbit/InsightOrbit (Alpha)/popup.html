@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Google Meet Extension</title>
+    <link rel="stylesheet" href="popup.css">
+</head>
+<body>
+    <div id="container">
+        <input type="text" id="searchBox" placeholder="Search names...">
+        <ul id="nameList">
+            <!-- List of participant names will be dynamically inserted here -->
+        </ul>
+        <button id="clearNamesBtn">Clear Names</button>
+        <hr>
+        <div id="incidentSection">
+            <h3>Incidents</h3>
+            <div id="incidentList">
+                <!-- List of incidents will be dynamically inserted here -->
+            </div>
+        </div>
+        <button id="sendToSlackBtn">Send to Slack</button>
+    </div>
+    <script src="popup.js"></script>
+</body>
+</html>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

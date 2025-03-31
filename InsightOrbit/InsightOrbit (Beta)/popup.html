@@ -1,0 +1,56 @@
+<!DOCTYPE html> <!-- Define el tipo de documento como HTML5 -->
+<html lang="en"> <!-- El idioma del documento es inglés -->
+<head>
+    <meta charset="UTF-8"> <!-- Especifica el conjunto de caracteres utilizado en el documento -->
+    <meta name="viewport" content="width=device-width, initial-scale=1.0"> <!-- Establece las configuraciones de vista para hacer la página adaptable a dispositivos móviles -->
+    <title>Google Meet Extension</title> <!-- Título que aparecerá en la pestaña del navegador -->
+    <link rel="stylesheet" href="popup.css"> <!-- Enlace al archivo CSS externo que contiene los estilos para la extensión -->
+</head>
+<body>
+    <div id="container"> <!-- Contenedor principal de la extensión -->
+        
+        <!-- Campo de entrada de texto para buscar nombres de participantes -->
+        <input type="text" id="searchBox" placeholder="Search names..."> 
+        
+        <!-- Lista de nombres de participantes, se llenará dinámicamente mediante JavaScript -->
+        <ul id="nameList">
+            <!-- Aquí se insertarán los nombres de los participantes -->
+        </ul>
+
+        <!-- Línea divisoria entre las secciones de la interfaz -->
+        <hr>
+
+        <div id="incidentSection"> <!-- Sección de incidentes -->
+            <h3>Incidents</h3> <!-- Título para la sección de incidentes -->
+            
+            <!-- Lista de incidentes, se llenará dinámicamente mediante JavaScript -->
+            <div id="incidentList">
+                <!-- Los incidentes serán insertados aquí -->
+            </div>
+        </div>
+
+        <!-- Botón para enviar los incidentes seleccionados a Slack -->
+        <button id="sendToSlackBtn">Send to Slack</button>
+    </div>
+
+    <!-- Enlace al archivo JavaScript que contiene la funcionalidad de la extensión -->
+    <script src="popup.js"></script> 
+</body>
+</html>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
