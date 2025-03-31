@@ -103,9 +103,9 @@
 
 # def main():
 #     # Declaramos variables
-#     email = "totitolopjona@gmail.com"
-#     password = "Cabezon123"
-#     meeting_url = "https://meet.google.com/bwi-jxzh-jax"
+#     email = "GMAIL"
+#     password = "PASSWORD"
+#     meeting_url = "URL_GOOGLE_MEET"
 #     name="Bot"
     
 #     try:
@@ -194,10 +194,10 @@
 
 # def main():
 #     # Declaramos variables
-#     email = "totitolopjona@gmail.com"
-#     password = "Cabezon123"
-#     meeting_url = "https://meet.google.com/ibr-mzmi-bzs"
-#     name = "Jonathan Lopez"
+#     email = "GMAIL"
+#     password = "PASSWORD"
+#     meeting_url = "URL_GOOGLE_MEET"
+#     name = "XXXXXX"
 
 #     try:
 
@@ -288,10 +288,10 @@ from Log_me_Google_Chrome_UC.open_webdriver_uc import start_webdriver
 
 def main():
     # Declaramos variables
-    email = "totitolopjona@gmail.com"
-    password = "Cabezon123"
-    meeting_url = "https://meet.google.com/xcj-jkyn-aur?authuser=1"
-    name = "Jonathan Lopez"
+    email = "GMAIL"
+    password = "PASSWORD"
+    meeting_url = "URL_GOOGLE_MEET"
+    name = "xxxxx"
 
     try:
         # Iniciar webdriver
