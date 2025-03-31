@@ -1,6 +1,6 @@
 // Constantes
 const MEET_URL = 'https://meet.google.com/*'; //Variable URL basado en un patron (TODAS LAS MEETS)
-const SLACK_WEBHOOK_URL = 'https://hooks.slack.com/services/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'; //Direccion URL del WebHook donde se envian los datos
+const SLACK_WEBHOOK_URL = 'URL_WEBHOOK_SLACK'; //Direccion URL del WebHook donde se envian los datos
 const CHECK_INTERVAL_SECONDS = 0.0000167; // Ajustado a 1 segundo
 
 let targetTabId = null; //Inicializa la variable con valor NULL
