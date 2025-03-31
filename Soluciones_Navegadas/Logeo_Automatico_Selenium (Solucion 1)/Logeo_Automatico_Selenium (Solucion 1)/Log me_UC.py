@@ -14,13 +14,13 @@ if __name__== '__main__':
     desktop_path = os.path.join(os.path.join(os.environ['USERPROFILE']), 'Desktop')
     file_path = os.path.join(desktop_path, 'integrantes_reunion.txt')
     #Declaramos variables
-    email = "totitolopjona@gmail.com"
-    password = "Cabezon123"
-    # email = "ext_jonl@mercadolibre.com"
-    # password = "Afdsfsdf234##"
-    # email = "noc_7x24@mercadolibre.com"
-    # password = "N5e7[meCwnk;|Z@d|^"
-    meeting_url = "https://meet.google.com/wrw-avxj-qst?authuser=0"
+    email = "GMAIL"
+    password = "PASSWORD"
+    # email = "GMAIL"
+    # password = "PASSWORD"
+    # email = "GMAIL"
+    # password = "PASSWORD"
+    meeting_url = "URL_GOOGLE_MEET"
     #iniciamos webdriver
     driver = start_webdriver(headless=False,pos="maximizada")
     wait = WebDriverWait(driver,60)
