@@ -20,7 +20,7 @@
     "default_popup": "popup.html"
   },
   "host_permissions": [
-    "https://sme-panic-button.adminml.com/*",
+    "URL_DE_TICKETERA*",
     "https://meet.google.com/*"
   ],
   "content_scripts": [
