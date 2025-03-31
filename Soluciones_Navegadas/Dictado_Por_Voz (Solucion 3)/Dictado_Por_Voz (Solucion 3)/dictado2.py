@@ -105,7 +105,7 @@ def extract_data_from_request(data):
 
 def main(data):  # Añade un parámetro para recibir data
     microphone_index = 1  # Índice del micrófono del auricular
-    webhook_url = 'https://hooks.slack.com/services/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'  # Reemplaza esto con tu URL de webhook
+    webhook_url = 'SLACK_WEBHOOK'  # Reemplaza esto con tu URL de webhook
 
     transcriptions = []
 
