@@ -1,6 +1,6 @@
 // Constantes
 const MEET_URL = 'https://meet.google.com/*';
-const SLACK_WEBHOOK_URL = 'https://hooks.slack.com/services/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';
+const SLACK_WEBHOOK_URL = 'SLACK_WEBHOOK';
 const CHECK_INTERVAL_SECONDS = 0.0000167; // Ajustado a 1 segundo
 
 let targetTabId = null;
