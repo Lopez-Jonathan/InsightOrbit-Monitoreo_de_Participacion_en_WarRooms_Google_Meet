@@ -21,9 +21,9 @@
     "default_popup": "popup.html"
   },
   "host_permissions": [
-    "https://sme-panic-button.adminml.com/*",
+    "URL_TICKETERA1",
     "https://meet.google.com/*",
-    "https://moody.adminml.com/*"
+    "URL_TICKETERA2"
   ],
   "content_scripts": [
     {
